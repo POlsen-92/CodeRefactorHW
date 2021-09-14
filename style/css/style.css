@@ -1,13 +1,19 @@
+/* CSS for entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
 
+/* Navigation tab at the top of webpage */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,10 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Large Photo below navigation tab */
 section {
     height: 800px;
     width: 100%;
@@ -53,6 +56,13 @@ section {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Services offered by Horiseon */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -65,12 +75,6 @@ section {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -80,7 +84,7 @@ main img {
     max-height: 200px;
 }
 
-.main {
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -89,6 +93,7 @@ main img {
     color: #ffffff;
 }
 
+/* Benefits for Horiseon Services */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -116,6 +121,7 @@ aside img {
     color: #ffffff;
 }
 
+/* Footer at the bottom of WebPage */
 footer {
     padding: 30px;
     clear: both;
